@@ -1,0 +1,23 @@
+# Environment & local configurations
+.env
+config/local.php
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Uploaded dynamic files (keep directory structure and htaccess)
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# Error logs
+*.log
+error_log
